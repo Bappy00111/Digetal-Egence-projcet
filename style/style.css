@@ -112,7 +112,11 @@
     linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
     background-blend-mode: overlay;
     color: white;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 
 }
 
@@ -129,12 +133,31 @@
 }
 .service-left-container{
     width: 50%;
+    padding: 20px;
 }
 
-.service-list{
-   
+.service-up{
+    display: flex;
+    
+}
+.service-dowon{
+    display: flex;
+}
+.box{
+    padding: 30px;
+    background-color: white;
+    box-shadow: 10px 5px 5px gray;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: black;
+    margin: 20px;
+    border-radius: 10px;
 }
 
+.service-logo{
+    width: 50%;
+}
 
 
 
